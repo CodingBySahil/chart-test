@@ -26,22 +26,22 @@ const Home = () => {
           <ChartCard
             title="Line Chart"
             description="Visualize trends over time with a line chart."
-            link="/line"
+            link="/linechart"
           />
           <ChartCard
             title="Covid-19 Fetching Data Chart"
             description="Visualize trends over time with a line chart."
-            link="/covid"
+            link="/covidchart"
           />
           <ChartCard
             title="Bar Chart"
             description="Compare different categories with a bar chart."
-            link="/bar"
+            link="/barchart"
           />
           <ChartCard
             title="Pie Chart"
             description="Display proportions with a colorful pie chart."
-            link="/pie"
+            link="/piechart"
           />
           {/* Add more cards as needed */}
         </div>
