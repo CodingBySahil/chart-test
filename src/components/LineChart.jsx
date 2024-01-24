@@ -1,10 +1,9 @@
 // LineChart.js
-import React, { useEffect, useState, useContext } from "react";
+import React, { useEffect, useContext } from "react";
 import { Line } from "react-chartjs-2";
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 import { GlobalContext } from "../context/GlobalContextProvider.jsx";
-import { CovidCharts } from "../components";
 
 Chart.register(CategoryScale);
 
@@ -25,8 +24,6 @@ const LineChart = () => {
         {/* <Line data={chartData} /> */}
         <Line data={chartData} />
       </div>
-
-      <CovidCharts></CovidCharts>
     </div>
   );
 };

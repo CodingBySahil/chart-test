@@ -78,8 +78,6 @@ const CovidCharts = () => {
           options={options}
         />
       </div>
-
-      <CovidCharts></CovidCharts>
     </div>
   );
 };
